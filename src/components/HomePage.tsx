@@ -167,11 +167,9 @@ export function HomePage() {
         <AdPlaceholder width={728} height={90} />
       </div>
       <head>
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9097049169398507"
-          crossorigin="anonymous"
-        ></script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9097049169398507"
+     crossorigin="anonymous">
+        </script>
       </head>
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-8">
