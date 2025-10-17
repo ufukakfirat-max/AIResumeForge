@@ -146,9 +146,14 @@ export function BlogList() {
                 )}
 
                 {/* Ad Banner */}
-                <div className="flex justify-center my-8">
-                  <AdPlaceholder width={728} height={90} />
-                </div>
+                <div className="flex justify-center py-12">
+        <AdPlaceholder width={728} height={90} />
+      </div>
+      <head>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9097049169398507"
+     crossorigin="anonymous">
+        </script>
+        </head>
 
                 {/* Other Posts */}
                 <div className="grid md:grid-cols-2 gap-6">
