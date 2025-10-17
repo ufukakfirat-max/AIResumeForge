@@ -145,6 +145,15 @@ export function PreviewDownload() {
             </div>
           </div>
 
+          <div className="flex justify-center py-12">
+        <AdPlaceholder width={728} height={90} />
+      </div>
+      <head>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9097049169398507"
+     crossorigin="anonymous">
+        </script>
+      </head>
+          
           {/* Right Sidebar Ad */}
           <div className="w-80 flex-shrink-0 hidden lg:block">
             <div className="sticky top-24">
